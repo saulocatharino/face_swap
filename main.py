@@ -137,11 +137,10 @@ action.start()
 
 def terminate():
     global root, run_event, action
-    print("Closing thread opencv...")
+    print("Encerrando opencv...")
     run_event.clear()
     time.sleep(1)
     root.destroy()
-    print("All closed! Chao")
 
 
 root.protocol("WM_DELETE_WINDOW", terminate)
