@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Desenvolvido por Saulo Catharino | saulocatharino@gmail.com
 
 from tkinter import *
 import tkinter.filedialog as tkFileDialog
